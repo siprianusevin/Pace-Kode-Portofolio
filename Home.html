@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Professional Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Home.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#home">Here Your Logo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Home Section -->
+    <header id="home">
+      <div class="container text-center">
+        <img
+          src="image/me2.jpeg"
+          alt="Profile Image"
+          class="rounded-circle img-fluid mb-4"
+          style="width: 150px"
+        />
+        <h1>Hi, I'm Siprianus Tabuni</h1>
+        <p>I’m a Backend Developer</p>
+        <a href="#about" class="btn">About Me</a>
+      </div>
+    </header>
+    <!-- Portfolio Section -->
+
+    <section id="portfolio">
+      <div class="container">
+        <h2>Portfolio</h2>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="image-box">
+              <img src="image/me2.jpeg" class="img-fluid" alt="Image 1" />
+              <p class="text-white">Siprianus Tabuni</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row g-3">
+              <div class="col-12">
+                <div class="box">Institut Teknologi PLN</div>
+              </div>
+              <div class="col-12">
+                <div class="box">Fakultas Telematika Energi</div>
+              </div>
+              <div class="col-12">
+                <div class="box">Jurusan Teknik Informatika</div>
+              </div>
+              <div class="col-12">
+                <div class="box">Indonesia</div>
+              </div>
+              <div class="col-12">
+                <div class="box">Jakarta</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+      <div class="container">
+        <h2 class="text-center mb-4">Gallery</h2>
+        <div
+          id="galleryCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <!-- Slide Items -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div
+                  class="col-md-12 d-flex align-items-center"
+                  style="
+                    background-image: url('image/me2.jpeg');
+                    height: 300px;
+                    background-size: cover;
+                    background-position: center;
+                  "
+                >
+                  <div class="carousel-caption d-block">
+                    <h3 class="text-white">Switzerland</h3>
+                    <p class="text-white">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ab, eum!
+                    </p>
+                    <button class="btn btn-primary">See More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div
+                  class="col-md-12 d-flex align-items-center"
+                  style="
+                    background-image: url('image/me2.jpeg');
+                    height: 300px;
+                    background-size: cover;
+                    background-position: center;
+                  "
+                >
+                  <div class="carousel-caption d-block">
+                    <h3 class="text-white">Finland</h3>
+                    <p class="text-white">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ab, eum!
+                    </p>
+                    <button class="btn btn-primary">See More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div
+                  class="col-md-12 d-flex align-items-center"
+                  style="
+                    background-image: url('image/me2.jpeg');
+                    height: 300px;
+                    background-size: cover;
+                    background-position: center;
+                  "
+                >
+                  <div class="carousel-caption d-block">
+                    <h3 class="text-white">Iceland</h3>
+                    <p class="text-white">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ab, eum!
+                    </p>
+                    <button class="btn btn-primary">See More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div
+                  class="col-md-12 d-flex align-items-center"
+                  style="
+                    background-image: url('image/me2.jpeg');
+                    height: 300px;
+                    background-size: cover;
+                    background-position: center;
+                  "
+                >
+                  <div class="carousel-caption d-block">
+                    <h3 class="text-white">Australia</h3>
+                    <p class="text-white">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ab, eum!
+                    </p>
+                    <button class="btn btn-primary">See More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div
+                  class="col-md-12 d-flex align-items-center"
+                  style="
+                    background-image: url('image/me2.jpeg');
+                    height: 300px;
+                    background-size: cover;
+                    background-position: center;
+                  "
+                >
+                  <div class="carousel-caption d-block">
+                    <h3 class="text-white">Netherland</h3>
+                    <p class="text-white">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ab, eum!
+                    </p>
+                    <button class="btn btn-primary">See More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div
+                  class="col-md-12 d-flex align-items-center"
+                  style="
+                    background-image: url('image/me2.jpeg');
+                    height: 300px;
+                    background-size: cover;
+                    background-position: center;
+                  "
+                >
+                  <div class="carousel-caption d-block">
+                    <h3 class="text-white">Ireland</h3>
+                    <p class="text-white">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ab, eum!
+                    </p>
+                    <button class="btn btn-primary">See More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Navigation Buttons -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#galleryCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#galleryCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!-- utama grid card gallery -->
+      <div class="card-container">
+        <div class="card">
+          <img src="image/me2.jpeg" alt="Backend Titikkoma" />
+          <p>Backend</p>
+          <span>GoLang</span>
+        </div>
+        <div class="card">
+          <img src="image/me2.jpeg" alt="IPMAP" />
+          <p>Frontend</p>
+          <span>ui ix</span>
+        </div>
+        <div class="card">
+          <img src="image/me2.jpeg" alt="LEAN" />
+          <p>JavaScript</p>
+          <span>Backend</span>
+        </div>
+        <div class="card">
+          <img src="image/me2.jpeg" alt="LEAN" />
+          <p>Html</p>
+          <span>Boostrap</span>
+        </div>
+        <div class="card">
+          <img src="image/me2.jpeg" alt="Panel IPMAP" />
+          <p>Data Science</p>
+          <span> Python</span>
+        </div>
+        <div class="card">
+          <img src="image/me2.jpeg" alt="Person 1" />
+          <p>Php Crud</p>
+          <span>Xmpp</span>
+        </div>
+      </div>
+    </section>
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <!-- Kolom untuk Text -->
+          <div class="col-md-6">
+            <div class="text-box">
+              <h2>About Me</h2>
+              <p>
+                I'M Siprianus Tabuni, seorang pengembang backend yang
+                bersemangat dan memiliki Keterampilam dalam menciptakan sistem
+                yang efisien. Saya senang memecahkan masalah yang kompleks dan
+                membangun solusi yang terukur. Let's work together!
+              </p>
+            </div>
+          </div>
+
+          <!-- Kolom untuk Skills -->
+          <div class="col-md-6">
+            <div class="skills-box">
+              <h3>SKILL</h3>
+              <div class="skill-item">HTML</div>
+              <div class="skill-item">CSS</div>
+              <div class="skill-item">JavaScript</div>
+              <div class="skill-item">Python</div>
+              <div class="skill-item">GoLang</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="text-center mb-4">Contact</h2>
+        <form>
+          <div class="row">
+            <!-- Input for Name -->
+            <div class="col-md-6 mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Enter your name"
+              />
+            </div>
+            <!-- Input for Email -->
+            <div class="col-md-6 mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Enter your email"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <!-- Input for Message -->
+            <div class="col-12 mb-3">
+              <label for="message" class="form-label">Your Message</label>
+              <textarea
+                class="form-control"
+                id="message"
+                rows="5"
+                placeholder="Enter your message"
+              ></textarea>
+            </div>
+          </div>
+          <!-- Submit Button -->
+          <div class="row">
+            <div class="col-12 text-center">
+              <button type="button" class="btn btn-danger">Send Message</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2024 Siprianus Tabuni. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
